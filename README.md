@@ -1,2 +1,2 @@
-# GO
-Estudando e praticando Linguagem GO
+#  🗿🍷
+Conhecendo e Praticnado  a linguagem GO
