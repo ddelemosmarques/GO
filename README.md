@@ -1,2 +1,2 @@
 #  🗿🍷
-Conhecendo e Praticnado  a linguagem GO
+Conhecendo e Praticando GO
