@@ -1,0 +1,168 @@
+Sexta feira 
+19 de Maio de 2023
+--------------------------------------------------------------
+1° VíDEO
+Cap. 2 – Variáveis, Valores & Tipos – 1. Go Playground
+https://youtu.be/Qf2645sTqH0
+---------------------------------------------------------------
+
+// You can edit this code!
+// Click here and start typing.
+package main
+
+import "fmt"
+
+func main() {
+  // AQUI A GENTE PODE PEDIR PARA ESCREVER QUALQUER COISA DENTRO DOS ("") PARENTESES E DAS ASPAS 
+	fmt.Println("qualquer outra coisa")
+  // OLHA AQUI CARAI, DEU PARA COMETAR ALGUMA COISA USANDO ESSAS DUAS BARRAS INICIAIS 
+}
+
+----------------------------------------------------------------
+
+2° VíDEO 
+Cap. 2 – Variáveis, Valores & Tipos – 2. Hello world!!
+-----------------------------------------------------------------
+
+
+import "fmt"
+
+func main() {
+
+	fmt.Println("Hello Word!!")
+// só para dar boa sorte kkk
+}
+
+----------------------------------------------------------------------
+
+package main
+
+import "fmt"
+
+func main() {
+	numerodebytes, erros := fmt.Println("Hello, 世界")
+	fmt.Println(numerodebytes, erros)
+}
+ 
+// o resultado desse comando "numerodebytes, erros :="
+// é o pedido para que mostre o numero de caracteres e os erros exitentes nesse comando
+
+---------------------------------------------- 
+
+package main
+
+import "fmt"
+
+func main() {
+	_, erros := fmt.Println("Hello, 世界")
+	fmt.Println(erros)
+}
+
+// ou
+
+package main
+
+import "fmt"
+
+func main() {
+	numerodebytes, _ := fmt.Println("Hello, 世界")
+	fmt.Println(numerodebytes)
+}
+
+// usando "_"(underline) posso anular umaparte de um comando dentro de uma função que chama muitas informações 
+// "numerodebytes, erros :=" veja que essa função comanda 2 informações ... quando eu quiser apeans uma é so substituir 
+// a parte indesejada por "_"
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Domingo
+21 de Maio de 2023
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+Func Printf
+
+-------------------
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	const person, years = "joana ", 10
+	fmt.Printf("%s \n is %d years old.\n", person, years)
+
+}
+------------------------
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	const name, age = "Kim", 22
+	fmt.Printf("%s is %d years old.\n", name, age)
+
+}
+
+// OBSERVE QUE APÓS CHAMAR A COSNANTE "CONS", PUDE DEFINIER E REUTILIZÁ-LA DE DIFERENTES FORMAS 
+// NO CÓDIGO ORIGINAL ESTAVA ESCRITO "name, age = 'Kim', 22" mas troquei por "person, years = 'Joana', 10"
+// de forma que altrou o resultado sem atrapalhar o funcionamento da função 
+
+----------------------------
+escrever outas formas aqui ---------------------
+----------------------------
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	const codinome, tempodecontibuicao = "zé", 50
+	fmt.Printf("%s foi o homem que ficou mais tempo numa tocaia.\n %d dias no mato.\n", codinome, tempodecontibuicao)
+  
+}
+######
+resultado foi 
+######
+
+zé foi o homem que ficou mais tempo numa tocaia.
+ 50 dias no mato.
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
