@@ -1,6 +1,11 @@
 #  🗿🍷
 Conhecendo e Praticando GO
 
+https://youtube.com/playlist?list=PLCKpcjBB_VlBsxJ9IseNxFllf-UFEXOdg
+
+Curso completo e streams utilizando a linguagem Go. 
+100% em português
+
 Capítulos:
 
     ✅1. Visão Geral do Curso
